@@ -20,7 +20,6 @@ var newString = str.replace(/[^A-Z0-9]/ig, "");
     else console.log(true);
 }
 
-//For the purpose of user debugging.
 validatePalindrome("A man, a plan, a canal: Panama");
 
 module.exports = validatePalindrome
